@@ -20,7 +20,7 @@ $(document).ready(function() {
 //https://ipapi.co/json/
 
 function createDisclaimer (city) {
-    const message = `Você e algumas pessoas próximas de <span class="disclaimer-city">${city}</span> foram selecionadas para participar deste programa.`
+    const message = `Tú y algunas personas cercanas a ti <span class="disclaimer-city">${city}</span> han sido seleccionados para participar en este programa.`
     const wrapper = $('#disclaimer-wrap')
     wrapper.append(`
     <div class="col-lg-8 disclaimer-content">
